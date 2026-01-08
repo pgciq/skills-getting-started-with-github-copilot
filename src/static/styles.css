@@ -161,3 +161,35 @@ footer {
   margin-bottom: 5px;
   color: #333;
 }
+
+.participants-list {
+  margin-top: 10px;
+}
+
+.participant-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+  padding: 5px;
+  background-color: #fff;
+  border-radius: 3px;
+}
+
+.participant-item span {
+  flex-grow: 1;
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 2px 5px;
+  border-radius: 3px;
+  transition: background-color 0.2s;
+}
+
+.delete-btn:hover {
+  background-color: #ffdddd;
+}
